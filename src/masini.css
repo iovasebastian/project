@@ -1,0 +1,96 @@
+
+.container-masini{
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content:center;
+    border-radius:1rem;
+}
+.sedan{
+    background-color:hsl(31, 77%, 52%);
+    color:hsla(0, 0%, 100%, 0.75);
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.suv{
+    background-color: hsl(184, 100%, 22%);
+    color:hsla(0, 0%, 100%, 0.75);
+}
+.luxury{
+    background-color:hsl(179, 100%, 13%);
+    color:hsla(0, 0%, 100%, 0.75);
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+.inner{
+    padding:0.75rem;
+}
+.buton-masini{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:40%;
+    box-sizing: border-box;
+    background-color:white;
+    border-radius: 1rem;
+    margin-top:auto;
+    margin-bottom:1rem;
+    margin-left:2rem;
+}
+.buton:hover .learn{
+color:white;
+}
+.button-masini:hover{
+    padding-bottom:1rem;
+    
+}
+.unu:hover{
+    background-color:hsl(31, 77%, 52%);
+    box-shadow:0px 0px 0px 1px white;
+}
+.doi:hover{
+    background-color:hsl(184, 100%, 22%);
+    box-shadow:0px 0px 0px 1px white;
+}
+.trei:hover{
+    background-color:hsl(179, 100%, 13%);
+    box-shadow:0px 0px 0px 1px white;
+}
+.unu{
+    color:hsl(31, 77%, 52%);
+}
+.doi{
+    color: hsl(184, 100%, 22%);
+}
+.trei{
+    color:hsl(179, 100%, 13%);
+}
+
+@media(min-width:600px){
+    
+    .container-masini{
+        position:relative;
+        top:50%;
+        transform: translateY(-25%);
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width:80%;
+    }
+    .sedan{
+        background-color:hsl(31, 77%, 52%);
+        color:hsla(0, 0%, 100%, 0.75);
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 1rem;
+    }
+    .suv{
+        background-color: hsl(184, 100%, 22%);
+        color:hsla(0, 0%, 100%, 0.75);
+    }
+    .luxury{
+        background-color:hsl(179, 100%, 13%);
+        color:hsla(0, 0%, 100%, 0.75);
+        border-top-right-radius: 1rem;
+        border-bottom-left-radius:0px;
+        border-bottom-right-radius: 1rem;
+    }
+}

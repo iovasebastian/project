@@ -1,0 +1,91 @@
+.container{
+    min-width:60vw;
+    min-width:60Vh;
+    border:1px solid black;
+    border-radius: 1em;
+    background-color: aliceblue;   
+}
+.upper{
+    max-height:20%;
+    overflow:hidden;
+    padding-bottom:3em;
+    text-align: center;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height:80%;
+}
+
+.toggle-switch {
+   position: relative;  
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    margin-left:1em;
+    margin-right:1em;
+  }
+
+  /* Hide the default checkbox input */
+  .toggle-switch input {
+    display: none;
+  }
+
+  /* Style the slider (the part that moves) */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 30px;
+  }
+
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+  }
+
+  /* Change the background color of the slider when the input is checked */
+  .toggle-switch input:checked + .slider {
+    background-color: #2196F3;
+  }
+
+  .toggle-switch input:checked + .slider:before {
+    transform: translateX(28px);
+  }
+
+  .time-per{
+    display: inline-block;
+    color:#778899;
+    text-align: center;
+    font-size:large;
+  }
+  .texttog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media only screen and (max-width: 600px) {
+  
+    .cards{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height:80%;
+    }
+}

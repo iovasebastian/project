@@ -1,0 +1,26 @@
+.card{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-height:60vh;
+    width:30vw;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 1rem;
+    overflow: scroll;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .card{
+        display:flex;
+        flex-direction: column;
+        
+        height:30vh;
+        width:60vw;
+        box-sizing: border-box;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 1rem;
+        overflow: scroll;
+    }
+  }

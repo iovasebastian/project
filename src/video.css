@@ -1,0 +1,51 @@
+.player-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    aspect-ratio: 1;
+    max-width:50vw;
+    border-radius:1em;
+    box-shadow: rgba(149, 157, 165, 0.5) 2px 8px 24px;
+    background-color: #FDF5E6;
+  }
+  
+  .react-player {
+    text-align: center;
+    aspect-ratio: 16/9;
+    
+  
+  }
+  .url{
+    display: flex;
+    margin-bottom: 1em;
+    font-family: cursive;
+  }
+  input{
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    -ms-appearance:none;
+  -o-appearance:none;
+  appearance: none;
+    margin-left:1em;
+    margin-right:1em;
+    border-radius:0.75em;
+    background-color: #FFE4B5;
+  
+  }
+  .wrapper2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height:60%;
+    width:50%;
+    border-radius:1em;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: #FFE4B5;
+  }
+  h1{
+    margin-bottom:3rem;
+    font-family: cursive;
+    text-shadow: 10px 10px 7px rgba(168,158,32,0.8);
+  }

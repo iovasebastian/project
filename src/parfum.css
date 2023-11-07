@@ -1,0 +1,98 @@
+.container-parfum{
+    background-color: white;
+    width:30rem;
+    height:38rem;
+    overflow: hidden;
+    text-align: center;
+    border-radius:1rem;
+    display:flex;
+    flex-direction:column;
+    box-shadow:0 8px 8px -4px black;
+}
+.pret{
+    color:hsl(158, 36%, 37%);
+    display:inline-block;
+    margin-top:0px;
+    margin-bottom:0px;
+    font-size:1.8rem;
+    font-weight: 700;
+    padding-bottom:0.5em;
+}
+.pret2{
+    color:hsl(158, 36%, 37%);
+    display:inline-block;
+    margin-top:0px;
+    margin-bottom:0px;
+    font-size:17px;
+    margin-left:3rem;
+    font-weight: 500;
+    text-decoration: line-through;
+    padding-bottom:1em;
+}
+.img{
+    max-width:100%;
+    max-height:500px;
+    width:100%;
+    display: block;
+    margin: auto;
+    
+}
+.deskstop{
+    display:none;
+}
+.descriere{
+    color:hsl(228, 12%, 48%);
+    margin-bottom:0px;
+    padding-bottom:0.5em;
+}
+.text{
+    box-sizing: border-box;
+    text-align: left;
+    padding-left:1rem;
+}
+.titlu-mic{
+    color:hsl(228, 12%, 48%);
+    margin-bottom:0px;
+    padding-bottom:0.5em;
+    font-size:14px;
+}
+.cart{
+    background-color:hsl(158, 36%, 37%);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:80%;
+    height:3rem;
+    margin-left:10%;
+    border-radius:1rem;
+    margin-bottom:1rem;
+}
+.add{
+    color:white;
+
+}
+@media(min-width: 500px){
+    .container-parfum{
+        background-color: white;
+        width:38rem;
+        height:22rem;
+        overflow: hidden;
+        text-align: center;
+        border-radius:1rem;
+        display:flex;
+        flex-direction:row;
+    }
+    .img{
+        width:50%;
+        height:100%;
+    }
+    .text{
+        width:50%;
+    }
+    .mobile{
+        display:none;
+    }
+    .deskstop{
+        display:block;
+    }
+}
