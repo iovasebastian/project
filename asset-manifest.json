@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/project/static/css/main.4d444aa5.css",
+    "main.js": "/project/static/js/main.e9a01fcd.js",
+    "static/js/787.ec704a7a.chunk.js": "/project/static/js/787.ec704a7a.chunk.js",
+    "static/media/image-product-desktop.jpg": "/project/static/media/image-product-desktop.c96d43af17111fe78e96.jpg",
+    "static/media/image-product-mobile.jpg": "/project/static/media/image-product-mobile.113818bc746dc8e64ffb.jpg",
+    "static/media/icon-luxury.svg": "/project/static/media/icon-luxury.7d6e1aefdc39c4742fbb039e7f97a503.svg",
+    "static/media/icon-suvs.svg": "/project/static/media/icon-suvs.058b664c311101933ebda84111ddd9b6.svg",
+    "static/media/icon-sedans.svg": "/project/static/media/icon-sedans.e794502801c486bcffc3513f6f03141e.svg",
+    "index.html": "/project/index.html",
+    "main.4d444aa5.css.map": "/project/static/css/main.4d444aa5.css.map",
+    "main.e9a01fcd.js.map": "/project/static/js/main.e9a01fcd.js.map",
+    "787.ec704a7a.chunk.js.map": "/project/static/js/787.ec704a7a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d444aa5.css",
+    "static/js/main.e9a01fcd.js"
+  ]
+}
