@@ -1,5 +1,5 @@
 import './App.css';
-import Container from './component-toggle/src/Container';
+import Container from './Container';
 import First from './Card';
 import Video from './video';
 import Qr from './qr';
@@ -91,11 +91,7 @@ function App() {
       {Comp5 && <Parfum/>}
       {Vis6 && <div className={Comp6 ? 'pr6' : 'pr6'} onClick={() => toggleStates6()}></div>}
       {Comp6 && <Masini/>}
-      {/*
-      <Container/>
-      <First/>
-      <Video/>
-  */}
+      
     </div>
   );
 }

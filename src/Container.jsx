@@ -1,6 +1,6 @@
 import './Container.css';
 import {useState} from 'react';
-import Card from './Card';
+import Card from './Card-price';
 
 const Container = () =>{
     const [agreement,setAgreement] = useState(false);
@@ -21,7 +21,7 @@ const Container = () =>{
     }
 
     return(
-       <div className="container">
+       <div className="container-price">
             <div className='upper'>
                 <h1>Pricing</h1>
                 <div className='texttog'>
